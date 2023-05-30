@@ -16,7 +16,7 @@ spec:
     spec: 
       containers:
         - name: accounts
-          image: jhonattan25/app-microservicios-accounts:1.0.0
+          image: jhonattan25/app-microservicios-accounts:tagversion
           ports:
           - containerPort: 8080
           env:
